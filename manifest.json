@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "PUNter",
+    "description": "Gets the most exciting computer puns on every new tab.",
+    "version": "1",
+    "author": "Nilansh Bansal",
+    "browser_action": {
+        "default_icon": "tab-icon.png",
+        "default_title": "Have a punny day!",
+        "default_popup": "popup.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
