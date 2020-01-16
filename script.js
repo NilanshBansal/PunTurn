@@ -25,7 +25,7 @@ puns=[
     {"pun": "Q: Why was the network administrator late to work?","punchline": "A: There was lots of traffic congestion and even a collision. Everything was backed up. It was a hard drive!"},
     {"pun": "Q: What wedding gift should you buy for a Windows administrator?","punchline": "A: I don't know. Perhaps you should check the registry for clues!"},
     {"pun": "Q: Where's the best place to hide a body?","punchline": "A: Page two of Google!"},
-    {"pun": "Q: What is the biggest lie in the entire universe?","punchline": "A: “I have read and agree to the Terms & Conditions.”"},
+    {"pun": "Q: What is the biggest lie in the entire universe?","punchline": "A: I have read and agree to the Terms & Conditions."},
     {"pun": "Q: What do computers do on a beach vacation?","punchline": "A: Surf the net!"},
     {"pun": "Q: Why are people afraid of computers?","punchline": "A: They byte!"},
     {"pun": "Q: Why do people on Twitter tell me I'm always confused?","punchline": "A: Because I don't follow!"},
