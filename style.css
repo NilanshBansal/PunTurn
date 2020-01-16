@@ -1,5 +1,182 @@
-#popup_anchor {
-    text-decoration: none;
-    color:black;
-    font-size:medium;
+.zx-1 {
+    background-color: #000;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+.zx-2 {
+    background-color: #313390;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+.zx-3 {
+    background-color: #313390;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+.zx-4 {
+    background-color: #1559db;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+.zx-5 {
+    background-color: #a73211;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+.zx-6 {
+    background-color: #d85525;
+    color: #f2f1ed;
+    text-shadow: #bfbfbd4d 5px 3px
+}
+
+
+.zx-7 {
+    background-color: #a15589;
+    color: #3c351f;
+    text-shadow: #0004d 5px 3px
+}
+
+.zx-8 {
+    background-color: #cd7a50;
+    color: #3c351f;
+    text-shadow: #0004d 5px 3px;
+}
+
+.zx-9 {
+    background-color: #629a31;
+    color: #3c351f;
+    text-shadow: #0004d 5px 3px
+}
+
+.zx-10 {
+    background-color: #9cd33c;
+    color: #3c351f;
+    text-shadow: #0004d 5px 3px
+}
+
+.zx-11 {
+    background-color: #28a4cb;
+    color: #3c351f;
+    text-shadow: #0004d 5px 3px
+}
+
+.zx-12 {
+    background-color: #65dcd6;
+    color: #000;
+    text-shadow: #3c351f4d 5px 3px
+}
+
+.zx-13 {
+    background-color: #e8bc50;
+    color: #000;
+    text-shadow: #3c351f4d 5px 3px
+}
+
+.zx-14 {
+    background-color: #f1e782;
+    color: #000;
+    text-shadow: #3c351f4d 5px 3px
+}
+
+.zx-15 {
+    background-color: #bfbfbd;
+    color: #000;
+    text-shadow: #3c351f4d 5px 3px
+}
+
+.zx-16 {
+    background-color: #f2f1ed;
+    color: #000;
+    text-shadow: #3c351f4d 5px 3px
+}
+
+.ff-1 {
+    font-family: "Ubuntu Mono"
+}
+
+.ff-2 {
+    font-family: "Share Tech Mono";
+}
+
+.ff-3 {
+    font-family: "VT323"
+}
+
+.ff-4 {
+    font-family: "PT Mono"
+}
+
+.ff-5 {
+    font-family: "Cutive Mono"
+}
+
+.ff-6 {
+    font-family: "Oxygen Mono"
+}
+
+body,
+html {
+    height: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0
+}
+
+#app {
+    font-size: 60px;
+    letter-spacing: 1px;
+    border-top: 20px solid #000;
+    border-right: 20px solid #000;
+    border-left: 20px solid #000;
+    display: grid
+}
+
+.pun {
+    margin: auto;
+    padding: 30px
+}
+
+.pun p {
+    margin: 0;
+    padding-bottom: 40px
+}
+/* 
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: #000;
+    color: #f2f1ed;
+    font-family: "VT323";
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+}
+
+.footer a {
+    color: #bfbfbd
+}
+
+.footer p {
+    margin: 0;
+    cursor: pointer
+} */
+
+@media only screen and (max-device-width: 321px) {
+    #app {
+        font-size: 30px
+    }
+
+    .footer .hide-mobile {
+        display: none
+    }
 }

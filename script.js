@@ -61,15 +61,14 @@ puns=[
     {"pun": "Q: What is a computer's favorite instrument?","punchline": "A: The keyboard!"}
 ]
 
+function getRandomInt(max){
+    return Math.floor(Math.random() * Math.floor(max));
+}
 $( document ).ready(function() {
-    random_no=Math.floor(Math.random()*puns.length)
+    random_no=getRandomInt(puns.length)
     $( "#question" ).html(puns[random_no]["pun"])
     $( "#answer" ).html(puns[random_no]["punchline"])
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    $('body').css('background',color);
+    $('body').addClass("zx-" + (getRandomInt(16) + 1).toString());
+    $('p').addClass("ff-" + (getRandomInt(6) + 1).toString());
 
 });
