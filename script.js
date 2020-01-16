@@ -65,4 +65,11 @@ $( document ).ready(function() {
     random_no=Math.floor(Math.random()*puns.length)
     $( "#question" ).html(puns[random_no]["pun"])
     $( "#answer" ).html(puns[random_no]["punchline"])
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    $('body').css('background',color);
+
 });
