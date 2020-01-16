@@ -152,7 +152,7 @@ html {
     margin: 0;
     padding-bottom: 40px
 }
-/* 
+
 .footer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -176,7 +176,7 @@ html {
 .footer p {
     margin: 0;
     cursor: pointer
-} */
+}
 
 @media only screen and (max-device-width: 321px) {
     #app {
