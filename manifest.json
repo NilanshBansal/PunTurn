@@ -9,6 +9,12 @@
         "default_title": "Have a punny day!",
         "default_popup": "popup.html"
     },
+    "icons":{
+        "16":"icon-lol-16.png",
+        "32":"icon-lol-32.png",
+        "48":"icon-lol-48.png",
+        "128":"icon-lol-128.png"
+    },
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
