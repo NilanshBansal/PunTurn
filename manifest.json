@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "PunTer",
-    "short_name":"PunTer",
+    "name": "PunTurn - Cringy Dev Puns",
+    "short_name":"PunTurn",
     "description": "Gets the most exciting computer puns on every new tab.",
     "version": "1",
     "author": "Nilansh Bansal",
